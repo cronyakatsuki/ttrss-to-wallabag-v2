@@ -164,7 +164,7 @@ class Wallabag_v2 extends Plugin {
 		$rv = "<img id=\"wallabagImgId\" src=\"plugins.local/wallabag_v2/wallabag.png\"
 			class='tagsPic' style=\"cursor: pointer;\"
 			onclick=\"postArticleToWallabag($article_id)\"
-			title='".__('Wallabag v2')."'>";
+			title='".__('Wallabag v2')."'/>";
 
 		return $rv;
 	}
